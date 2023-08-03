@@ -50,4 +50,4 @@ Use the Following Command to run testing.
 ```
 
 ## Screeshot of Testing
-![Screesnshot](Screeshot/Screenshot 2023-08-03 130118.png)
+![Screesnshot](Screenshot/Screenshot.png)
