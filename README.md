@@ -50,9 +50,9 @@ Use the Following Command to run testing.
 ```
 
 ## Screeshot of Testing
-![Screesnshots](Screenshot/Screenshot1.png)
+![Screesnshots](Screenshots/Screenshot1.png)
 
 ## In Polygon Mumbai [ Polygon Testnet Network ]
-![Screesnshots](Screenshot/Screenshot2.png)
+![Screesnshots](Screenshots/Screenshot2.png)
 
 Link [Click here to see in Polygon Mumbai](https://mumbai.polygonscan.com/tx/0xfac7335620516f1e4fbc126ad95b987880994f13e40392fff8f86c46b4edc409)
