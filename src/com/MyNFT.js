@@ -9,22 +9,22 @@ const MyNFT = () => {
   const [owner, setOwner] = useState('');
 
   useEffect(() => { 
-    initializeWeb3();
+    initializeWeb3(); 
   }, []);
 
   const privateKey = '0xaae6757d640c565936fef7fb0aa53e9be9e397428406a35ec0008401d7a70c8d';
 
-  const initializeWeb3 = async () => {
+  const initializeWeb3 = async () => { 
     try {
       const provider = new Web3.providers.HttpProvider('https://polygon-mumbai.infura.io/v3/467cb109e77349eeb28914213aab1e0a');
       const web3 = new Web3(provider);
       const contractAddress = '0x373ae1EB0A752d55f8dffa8cF8878C3812eD9583';
       const deployedContract = new web3.eth.Contract(MyNFTABI, contractAddress);
       setContract(deployedContract);
-    } catch (error) {
+    } catch (error) { 
       console.error('Error initializing Web3:', error);
     }
-  };
+  }; 
  
 
   const handleMint = async () => {
