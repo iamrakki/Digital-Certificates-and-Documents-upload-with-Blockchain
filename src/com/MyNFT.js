@@ -25,7 +25,7 @@ const MyNFT = () => {
       console.error('Error initializing Web3:', error);
     }
   };
-  
+ 
 
   const handleMint = async () => {
     if (contract) {
