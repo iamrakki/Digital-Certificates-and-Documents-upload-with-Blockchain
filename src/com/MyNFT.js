@@ -8,7 +8,7 @@ const MyNFT = () => {
   const [ipfsHash, setIpfsHash] = useState('');
   const [owner, setOwner] = useState('');
 
-  useEffect(() => {
+  useEffect(() => { 
     initializeWeb3();
   }, []);
 
