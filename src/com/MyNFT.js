@@ -2,19 +2,19 @@ import React, { useEffect, useState } from 'react';
 import Web3 from 'web3';
 import MyNFTABI from './MyNFTABI.json';
 
-const MyNFT = () => {
+const MyNFT = () => { 
   const [contract, setContract] = useState(null);
   const [tokenId, setTokenId] = useState(0);
   const [ipfsHash, setIpfsHash] = useState('');
   const [owner, setOwner] = useState('');
 
-  useEffect(() => { 
+  useEffect(() => {
     initializeWeb3(); 
   }, []);
 
   const privateKey = '0xaae6757d640c565936fef7fb0aa53e9be9e397428406a35ec0008401d7a70c8d';
 
-  const initializeWeb3 = async () => { 
+  const initializeWeb3 = async () => {
     try {
       const provider = new Web3.providers.HttpProvider('https://polygon-mumbai.infura.io/v3/467cb109e77349eeb28914213aab1e0a');
       const web3 = new Web3(provider);
