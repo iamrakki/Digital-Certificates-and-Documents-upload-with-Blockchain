@@ -19,7 +19,6 @@ contract MyNFT is ERC721 {
         for (uint256 i = 0; i < to.length; i++) {
             _tokenIds.increment();
             uint256 tokenId = _tokenIds.current();
-
             _safeMint(to[i], tokenId);
             _ipfsHashes[tokenId] = ipfsHashes[i];
             _tokenOwners[tokenId] = to[i];
