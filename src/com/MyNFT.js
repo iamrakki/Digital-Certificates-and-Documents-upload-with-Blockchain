@@ -46,7 +46,7 @@ const MyNFT = () => {
         'QmSYHBLnv9Cf7PxwqXvU8iRQbovhWSxzk8BsvAdvXNhXbJ',
         'QmbZgMQmyN7k9DjzC81kbxc6RErSjYj6QhMWb4VuAAsCCt',
       ];
-
+      
       try {
         const gasPrice = await web3.eth.getGasPrice();
         const nonce = await web3.eth.getTransactionCount(account.address);
