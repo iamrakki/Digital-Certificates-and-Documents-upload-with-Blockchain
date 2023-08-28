@@ -24,7 +24,7 @@ contract MyNFT is ERC721 {
             _ipfsHashes[tokenId] = ipfsHashes[i];
             _tokenOwners[tokenId] = to[i];
         }
-    }
+    } 
 
     function getTokenData(uint256 tokenId) external view returns (string memory ipfsHash, address owner) {
         require(_exists(tokenId), "Token does not exist");
