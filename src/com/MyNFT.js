@@ -21,7 +21,7 @@ const MyNFT = () => {
       const contractAddress = '0x373ae1EB0A752d55f8dffa8cF8878C3812eD9583';
       const deployedContract = new web3.eth.Contract(MyNFTABI, contractAddress);
       setContract(deployedContract);
-    } catch (error) { 
+    } catch (error) {
       console.error('Error initializing Web3:', error);
     }
   }; 
