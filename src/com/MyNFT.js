@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Web3 from 'web3';
 import MyNFTABI from './MyNFTABI.json';
 
-const MyNFT = () => { 
+const MyNFT = () => {
   const [contract, setContract] = useState(null);
   const [tokenId, setTokenId] = useState(0);
   const [ipfsHash, setIpfsHash] = useState('');
