@@ -11,7 +11,7 @@ contract MyNFT is ERC721 {
     mapping(uint256 => string) private _ipfsHashes;
     mapping(uint256 => address) private _tokenOwners;
 
-    constructor() ERC721("MyNFT", "NFT") {}
+    constructor() ERC721("MyNFT", "NFT") {}  
 
     function mint(address[] memory to, string[] memory ipfsHashes) external {
         require(to.length == ipfsHashes.length, "Array length mismatch");
